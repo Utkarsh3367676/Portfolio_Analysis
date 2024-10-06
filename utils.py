@@ -1,5 +1,3 @@
-# utils.py
-
 import datetime
 from mstarpy import Funds
 import numpy as np
