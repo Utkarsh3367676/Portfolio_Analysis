@@ -4,12 +4,16 @@ This project is a backend system for processing and visualizing financial portfo
 
 Features
 -Calculated Total Portfolio Value: Sum of (leftover units × NAV of scheme).
+
 -Calculated Total Portfolio Gain: Sum of (Current Unit Value - Unit Acquisition Cost).
+
 -Calculated Portfolio XIRR: Compute the XIRR based on the series of cash flows.
 
 Additional Features I have implemented:
 -Visualized Portfolio Allocation: Generated a pie chart for portfolio allocation.
+
 -Visualized Gains/Losses by Scheme: Generated a bar chart for gains/losses by each scheme.
+
 -Stored Results in MongoDB: Stored the results of calculations in a MongoDB database for persistent storage and future reference.
 
 
