@@ -49,5 +49,19 @@ Visualizations: The charts will be saved as PNG files in the current working dir
       portfolio_gains.png: Bar chart for gains/losses by scheme.
 
 
+Snapshots:
+MongoDB:
+![MongoDB_Databse_snapshot](https://github.com/user-attachments/assets/ee915b25-5688-4e14-8248-a1cde5c0ddb1)
+
+Working Model:
+![Code_repo_overview](https://github.com/user-attachments/assets/3d64bcf6-63ef-4c7c-9fac-ea2dfd5a9cf7)
+
+
+Json Data I used:
+https://file.notion.so/f/f/6846cde2-b681-4392-acb0-26ae8c6d036e/67e825c7-1a23-4ce2-9a63-58d01358f8a5/transaction_detail.json?table=block&id=11578a07-3d52-80ba-a72e-f4891f88d1f7&spaceId=6846cde2-b681-4392-acb0-26ae8c6d036e&expirationTimestamp=1728280800000&signature=_1zVYcNlkv2BG0jJx-MAD8p1lNeLvRy70tal1PGb5AI&downloadName=transaction_detail.json
+
+
+
+
 
       
