@@ -1,5 +1,3 @@
-# app.py
-
 from flask import Flask, request, jsonify
 from portfolio import PortfolioProcessor
 import config
@@ -11,14 +9,11 @@ app = Flask(__name__)
 # Path to the local JSON file containing transaction data
 LOCAL_JSON_PATH = os.path.join(os.path.dirname(__file__), 'transaction_detail.json')
 
-# Route to process portfolio
 @app.route('/portfolio', methods=['POST'])
 def process_portfolio():
-    # Use JSON data from the POST request if available
     if request.json:
         data = request.json
     else:
-        # Load data from the local JSON file
         with open(LOCAL_JSON_PATH, 'r') as file:
             data = json.load(file)
 
