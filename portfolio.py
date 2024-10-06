@@ -1,5 +1,3 @@
-# portfolio.py
-
 import json
 import datetime
 from mstarpy import Funds
